@@ -19,11 +19,7 @@ def get_contestant_name(data, occupation)
           if value == occupation 
             return person["name"]
           end
-        end
-      end
-    end
-  end
-end
+        e
 
 def count_contestants_by_hometown(data, hometown)
   # code here
